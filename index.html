@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DrillPoint Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="text-3xl font-bold text-blue-500">
+          DrillPoint <span class="text-yellow-400">Solutions</span>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="lg:hidden">
+          <button id="menuButton" class="text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex space-x-8">
+          <a href="#home" class="hover:text-yellow-400 transition-all duration-300">Home</a>
+          <a href="#services" class="hover:text-yellow-400 transition-all duration-300">Services</a>
+          <a href="#about" class="hover:text-yellow-400 transition-all duration-300">About</a>
+          <a href="#contact" class="hover:text-yellow-400 transition-all duration-300">Contact</a>
+          <a href="#solutions" class="hover:text-yellow-400 transition-all duration-300">Solutions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobileMenu" class="lg:hidden bg-gray-800 text-white py-4 px-6 hidden">
+      <a href="#home" class="block py-2 hover:text-yellow-400">Home</a>
+      <a href="#services" class="block py-2 hover:text-yellow-400">Services</a>
+      <a href="#about" class="block py-2 hover:text-yellow-400">About</a>
+      <a href="#contact" class="block py-2 hover:text-yellow-400">Contact</a>
+      <a href="#solutions" class="block py-2 hover:text-yellow-400">Solutions</a>
+    </div>
+  </nav>
+  
+    <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('hero-img.jpeg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Dark overlay for readability -->
+    
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-32 sm:px-8 text-center text-white">
+      <!-- Heading -->
+      <h1 class="text-5xl font-extrabold leading-tight mb-6">
+        Empowering the Future of Oil & Gas Solutions
+      </h1>
+      
+      <!-- Subheading -->
+      <p class="text-lg sm:text-xl md:text-2xl mb-8">
+        At DrillPoint Solutions, we provide innovative and sustainable energy solutions to power industries worldwide.
+      </p>
+      
+      <!-- Call to Action Button -->
+      <a href="explore.html" class="inline-block bg-yellow-400 text-gray-900 text-lg font-semibold py-3 px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-yellow-500">
+        Explore Our Solutions
+      </a>
+    </div>
+  </section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+        <!-- Section Title -->
+        <h2 class="text-4xl font-extrabold text-gray-900 mb-6">
+            Our Expert Services
+        </h2>
+        <p class="text-xl text-gray-600 mb-12">
+            We provide industry-leading solutions that power the future of energy. Explore our diverse range of services.
+        </p>
+
+        <!-- Service Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex justify-center mb-4">
+       <img src="oil-rig.png" alt="" class="w-10 h-10">
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Exploration & Drilling</h3>
+                <p class="text-gray-600">We provide comprehensive drilling services, from exploration to successful extraction, utilizing the latest technology for maximum efficiency.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex justify-center mb-4">
+  <img src="water-pipe.png" alt="" class="w-10 h-10">
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Pipeline Solutions</h3>
+                <p class="text-gray-600">Our pipeline solutions include design, construction, and maintenance services to ensure the safe and efficient transportation of resources.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex justify-center mb-4">
+    <img src="cost.png" alt="" class="w-10 h-10">
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Asset Management</h3>
+                <p class="text-gray-600">We offer asset management services, ensuring the longevity and optimal performance of your oil and gas assets through proactive maintenance and monitoring.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+          <!-- Section Title -->
+          <h2 class="text-4xl font-extrabold text-gray-900 mb-6">
+              About DrillPoint Solutions
+          </h2>
+          <p class="text-xl text-gray-600 mb-12">
+              At DrillPoint Solutions, we are dedicated to providing top-tier oil and gas services that ensure efficiency, safety, and sustainability. With over 20 years of experience in the industry, we are committed to delivering innovative solutions to meet the evolving needs of our clients.
+          </p>
+
+          <!-- Mission and Values -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <!-- Mission -->
+              <div class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                  <h3 class="text-3xl font-semibold text-gray-900 mb-4">Our Mission</h3>
+                  <p class="text-gray-600">
+                      Our mission is to lead the oil and gas industry by offering innovative, cost-effective, and sustainable solutions. We aim to enhance operational efficiency, reduce environmental impact, and promote the safety of all involved.
+                  </p>
+              </div>
+
+              <!-- Values -->
+              <div class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                  <h3 class="text-3xl font-semibold text-gray-900 mb-4">Our Values</h3>
+                  <ul class="text-gray-600 space-y-4">
+                      <li class="flex items-center">
+     <img src="creativity.png" alt="" class="w-10 h-10">
+                          Innovation
+                      </li>
+                      <li class="flex items-center">
+    <img src="cost.png" alt="" class="w-10 h-10">
+                          Integrity
+                      </li>
+                      <li class="flex items-center">
+    <img src="excellence.png" alt="" class="w-10 h-10">
+                          Excellence
+                      </li>
+                      <li class="flex items-center">
+    <img src="system.png" alt="" class="w-10 h-10">
+                          Safety
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Solutions Section -->
+  <section id="solutions" class="py-20 bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+          <!-- Section Title -->
+          <h2 class="text-4xl font-extrabold mb-8 text-white">Our Solutions</h2>
+          <p class="text-lg text-gray-400 mb-16">
+              DrillPoint Solutions offers a range of high-quality services designed to optimize operations and ensure safety in the oil and gas industry. Discover our expertise below.
+          </p>
+
+          <!-- Solutions Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+
+              <!-- Solution 1 -->
+              <div class="bg-gradient-to-r from-blue-700 to-blue-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Exploration & Drilling</h3>
+                  <p class="text-gray-200">
+                      We provide advanced exploration and drilling techniques to efficiently locate and extract valuable resources while minimizing environmental impact.
+                  </p>
+              </div>
+
+              <!-- Solution 2 -->
+              <div class="bg-gradient-to-r from-green-700 to-green-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Production Optimization</h3>
+                  <p class="text-gray-200">
+                      Our experts optimize production processes through innovative technologies, improving yield and reducing operational costs for better ROI.
+                  </p>
+              </div>
+
+              <!-- Solution 3 -->
+              <div class="bg-gradient-to-r from-yellow-700 to-yellow-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Environmental Compliance</h3>
+                  <p class="text-gray-200">
+                      We ensure that our clients meet environmental standards, incorporating sustainable practices that minimize the ecological footprint of their operations.
+                  </p>
+              </div>
+
+              <!-- Solution 4 -->
+              <div class="bg-gradient-to-r from-red-700 to-red-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Maintenance & Safety</h3>
+                  <p class="text-gray-200">
+                      We provide maintenance services for all equipment and ensure safety protocols are strictly followed, reducing downtime and preventing accidents.
+                  </p>
+              </div>
+
+              <!-- Solution 5 -->
+              <div class="bg-gradient-to-r from-teal-700 to-teal-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Data Analytics</h3>
+                  <p class="text-gray-200">
+                      We use advanced data analytics to provide actionable insights, enabling our clients to make informed decisions and optimize operational efficiency.
+                  </p>
+              </div>
+
+              <!-- Solution 6 -->
+              <div class="bg-gradient-to-r from-purple-700 to-purple-500 p-8 rounded-lg shadow-lg transform transition hover:scale-105 hover:shadow-2xl duration-300">
+                  <h3 class="text-2xl font-semibold text-white mb-4">Supply Chain Management</h3>
+                  <p class="text-gray-200">
+                      We optimize supply chains through advanced logistics, ensuring timely deliveries and reducing costs while maintaining high operational standards.
+                  </p>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  
+  <!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+        <!-- Section Title -->
+        <h2 class="text-4xl font-extrabold mb-6 text-white">Get in Touch</h2>
+        <p class="text-lg text-gray-400 mb-16">
+            At DrillPoint Solutions, we are here to help you with all your oil and gas operational needs. Whether you have a project inquiry or a question, feel free to reach out to us.
+        </p>
+
+        <div class="lg:flex lg:justify-between lg:space-x-12">
+            <!-- Contact Information -->
+            <div class="lg:w-1/2 mb-12 lg:mb-0">
+                <h3 class="text-3xl font-semibold mb-6 text-white">Contact Information</h3>
+                <p class="text-lg text-gray-400 mb-4">
+                    <strong>Office Address:</strong> 41 Road F close, Festac Town,Lagos
+                </p>
+                <p class="text-lg text-gray-400 mb-4">
+                    <strong>Email:</strong> info@drillpointsolutions.com
+                </p>
+                <p class="text-lg text-gray-400 mb-4">
+                    <strong>Phone:</strong> +1 234 567 890
+                </p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="lg:w-1/2">
+                <form action="#" method="POST" class="space-y-6 bg-gray-800 p-8 rounded-lg shadow-lg">
+                    <!-- Name Field -->
+                    <div>
+                        <label for="name" class="block text-lg font-semibold text-gray-300">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full p-3 mt-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 border-2 border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- Email Field -->
+                    <div>
+                        <label for="email" class="block text-lg font-semibold text-gray-300">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full p-3 mt-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 border-2 border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- Message Field -->
+                    <div>
+                        <label for="message" class="block text-lg font-semibold text-gray-300">Message</label>
+                        <textarea id="message" name="message" rows="6" required class="w-full p-3 mt-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 border-2 border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <div>
+                        <button type="submit" class="w-full p-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-300">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gray-900 text-white py-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Company Information -->
+            <div class="space-y-6">
+                <h3 class="text-3xl font-extrabold text-blue-600">DrillPoint Solutions</h3>
+                <p class="text-lg text-gray-400">
+                    We specialize in providing innovative solutions for the oil and gas industry, ensuring that your operations are efficient, sustainable, and future-ready.
+                </p>
+                <p class="text-lg text-gray-400">
+                    <strong>Office Address:</strong> 1234 Drilling Avenue, Energy City, TX 75001
+                </p>
+                <p class="text-lg text-gray-400">
+                    <strong>Email:</strong> info@drillpointsolutions.com
+                </p>
+                <p class="text-lg text-gray-400">
+                    <strong>Phone:</strong> +1 234 567 890
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="space-y-6">
+                <h3 class="text-2xl font-semibold text-white">Quick Links</h3>
+                <ul class="space-y-4 text-lg text-gray-400">
+                    <li><a href="#about" class="hover:text-blue-600">About Us</a></li>
+                    <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+                    <li><a href="#solutions" class="hover:text-blue-600">Solutions</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media & Newsletter -->
+            <div class="space-y-6">
+                <h3 class="text-2xl font-semibold text-white">Follow Us</h3>
+                <div class="flex space-x-6 text-gray-400">
+                    <a href="https://www.linkedin.com" target="_blank" class="hover:text-blue-600">
+                        <i class="fab fa-linkedin-in text-2xl"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="hover:text-blue-600">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="hover:text-blue-600">
+                        <i class="fab fa-facebook-f text-2xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="hover:text-blue-600">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-xl text-white font-semibold">Subscribe to Our Newsletter</h3>
+                    <form action="#" method="POST" class="mt-4 flex">
+                        <input type="email" name="email" placeholder="Your Email" class="p-3 w-3/4 rounded-l-lg bg-gray-800 text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <button type="submit" class="p-3 w-1/4 rounded-r-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="mt-12 border-t border-gray-600 pt-6 text-center">
+            <p class="text-gray-400 text-lg">
+                &copy; 2024 DrillPoint Solutions. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+  <!-- JavaScript for mobile menu toggle -->
+  <script>
+    const menuButton = document.getElementById('menuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
